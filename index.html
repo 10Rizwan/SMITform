@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        fieldset {
+    width: 442px;
+    background-color: rgb(21, 21, 255);
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+fieldset:hover{
+    background-color: black;
+}
+legend {
+    text-align: center;
+    font-size: 27px;
+    background-color: rgb(38, 174, 38);
+    color: white;
+    border-radius: 20px;
+    width: 289px;
+    height: 34px;
+}
+legend:hover{
+    background-color: blue;
+    color: wheat;
+}
+input {
+    line-height: 20px;
+    margin-bottom: 14px;
+    background-color: aquamarine;
+}
+input:hover{
+    background-color: brown;
+}
+input:focus{
+    background-color: antiquewhite;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blanchedalmond;
+}
+button {
+    margin-top: 38px;
+    margin-left: 76px;
+    height: 40px;
+    width: 103px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-color: blue;
+}
+button:hover{
+    background-color: chocolate;
+    color: white;
+    border-radius: 20px;
+    border-color: black;
+}
+img {
+    width: 428px;
+    margin-left: 446px;
+    height: 175px;
+}
+    </style>
+    <title>Tables</title>
+</head>
+<body> 
+    <form>
+        <div class="imag"><img src="https://awamiweb.com/wp-content/uploads/2018/07/saylani-welfare.jpg" alt=""></div>
+        <fieldset>
+            <legend>Saylani Mass It Training</legend>
+           Name: <input type="text"><br>
+           F/Name: <input type="text"><br>
+          Password: <input type="password" name="password"><br>
+         Email: <input type="email" name="email"><br>
+         Gender: <input type="radio" name="gender" id="male">
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="female">
+         <label for="female">female</label><br>
+        Hobbies: <input type="checkbox" name="checkbox" id="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" name="checkbox" id="volley ball">
+        <label for="volley ball">Volley Ball</label>
+        <input type="checkbox" name="checkbox" id="football">
+        <label for="football">Football</label>
+        <input type="checkbox" name="checkbox" id="tennis ball">
+        <label for="tennis ball">Tennis Ball</label><br>
+        Select Country: <select>
+            <option selected disabled>Select Country</option>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>Srilanka</option>
+            <option>Bangladesh</option>
+        </select><br>
+        <button><a href="successfully.html">Submit Now</a></button>
+        <button>Reset</button>
+    </fieldset>
+    </form>
+</body>
+</html>
